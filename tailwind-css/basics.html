@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            awwal: 'blue',
+            yell: 'yellow',
+            red:'red',
+            grey: 'grey'
+          }
+        }
+      }
+    }
+  </script>
+  <!-- <h1 class="text-awwal p-5 bg-white hover:p-3 font-medium text-xl ml-16">
+    I am HIM
+  </h1> -->
+  <div class="w-80 m-20 h-120 p-1 flex bg-white p-2 round-xl shadow-lg">
+    <div class="text-white p-1">
+   <img src="images/bing-removebg-preview.png" class="w-20 h-30" alt="">
+    </div>
+    <div class="">
+    <h1 class="font-bold text-xl">ChitChat</h1>
+    <h1 class="font-normal text-sm text-grey">You have a new message!</h1>
+    </div>
+  </div>
+</body>
+</html>
